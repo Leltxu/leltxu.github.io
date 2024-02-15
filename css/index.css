@@ -1,0 +1,30 @@
+@import url(main.css);
+
+.carrusel {
+    height: calc(100vh - 60px);
+}
+
+.carrusel-img {
+    object-fit: cover;
+}
+
+.carousel-item {
+    height: calc(100vh - 60px);
+    position: relative;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Color oscuro con opacidad */
+  }
+  
