@@ -1,35 +1,65 @@
 @import url(main.css);
 
 .carrusel {
-    height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
 }
 
 .carrusel-img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-item {
-    height: calc(100vh - 60px);
-    position: relative;
-  }
-  
-  .carousel-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
+  height: calc(100vh - 60px);
+  position: relative;
+}
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Color oscuro con opacidad */
-  }
-  
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 .carousel-caption {
-    right: 0;
-    top: 10px;
+  right: 0;
+  top: 10px;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 100px auto 300px 100px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  ". noticias novedades ."
+  "destacado destacado destacado destacado";
+}
+
+.noticias {
+  grid-area: noticias;
+  background-color: blue;
+}
+
+.novedades {
+  grid-area: novedades;
+  background-color: red;
+}
+
+.destacado {
+  grid-area: destacado;
+  background-color: chartreuse;
+}
+
+.noticia img {
+  object-fit: cover;
+  width: 250px;
+  height: 150px;
 }
