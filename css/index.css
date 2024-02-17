@@ -76,7 +76,6 @@ CONTENIDO
 
 .noticias {
   grid-area: noticias;
-  background-color: blue;
 }
 
 .noticias h3 {
@@ -94,17 +93,84 @@ CONTENIDO
 
 .noticia {
   width: 250px;
+  border: 1px solid #a3a3a3;
+  margin-block: 10px;
+  border-radius: 4px;
+}
+
+.noticia a {
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 .noticia img {
   object-fit: cover;
-  width: 250px;
+  width: 248px;
   height: 150px;
+  display: block;
 }
 
 .noticia h4 {
   font-size: 20px;
+  margin-top: 5px;
+  margin-inline: 5px;
 }
+
+.fecha {
+  position: absolute;
+  z-index: 2;
+  color: midnightblue;
+  background-color: mediumspringgreen;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  top: 135px;
+  left: 10px;
+  width: 60px;
+}
+
+.fecha p {
+  display: flex;
+}
+
+.not-hov {
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.not-hov i {
+  font-size: 40px;
+  color: orange ;
+}
+
+.noticia a:hover .not-hov {
+  opacity: 1;
+}
+
+.ver-mas {
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+}
+
+.ver-mas a {
+  padding: 10px;
+  background-color: #2be27d;
+  text-decoration: none;
+  color: white;
+}
+
+
 
 .novedades {
   grid-area: novedades;
