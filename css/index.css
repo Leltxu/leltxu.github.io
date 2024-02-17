@@ -238,6 +238,10 @@ DESTACADO
   justify-content: space-around;
 }
 
+.destacado {
+  margin-inline: 5px;
+}
+
 .destacado h4{
   text-align: center;
 }
