@@ -25,18 +25,18 @@ header {
     margin-block: 5px;
 }
 
-a {
+.cavecera a {
     color: wheat;
     padding: 5px;
     text-decoration: none;
     margin-inline: 5px;
 }
 
-i {
+.cavecera i {
     transition: transform .5s;
 }
 
-a:hover i {
+.cavecera a:hover i {
     transform: rotateX(180deg);
 }
 
@@ -70,7 +70,7 @@ a:hover i {
     margin-left: 30px;
 }
 
-a:hover {
+.cavecera a:hover {
     color: #918266;
 }
 
