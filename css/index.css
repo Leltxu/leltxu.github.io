@@ -74,6 +74,10 @@ CONTENIDO
   margin-top: 20px;
 }
 
+/*********
+NOTICIAS 
+*********/
+
 .noticias {
   grid-area: noticias;
 }
@@ -127,7 +131,7 @@ CONTENIDO
   font-weight: bold;
   top: 135px;
   left: 10px;
-  width: 60px;
+  width: 65px;
 }
 
 .fecha p {
@@ -166,17 +170,52 @@ CONTENIDO
 .ver-mas a {
   padding: 10px;
   background-color: #2be27d;
-  text-decoration: none;
   color: white;
   border-radius: 7px;
 }
 
-
+/**********
+NOVEDADES
+**********/
 
 .novedades {
   grid-area: novedades;
-  background-color: red;
+  border: 1px solid gray ;
 }
+
+.novedades h3 {
+  margin-left: 15px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.novedades hr {
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: 3px;
+  background-color: gray;
+  border: none;
+}
+
+.novedad {
+  text-align: center;
+  margin-inline: 5px;
+}
+
+.novedad h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.novedad h5 {
+  font-size: 17px;
+}
+
+.novedad img {
+  width: 200px;
+}
+
 
 .destacado {
   grid-area: destacado;
