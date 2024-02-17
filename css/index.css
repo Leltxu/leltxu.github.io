@@ -157,7 +157,7 @@ NOTICIAS
   color: orange ;
 }
 
-.noticia a:hover .not-hov {
+.hov-flcha:hover .not-hov {
   opacity: 1;
 }
 
@@ -216,9 +216,34 @@ NOVEDADES
   width: 200px;
 }
 
+/**********
+DESTACADO
+**********/
 
-.destacado {
+
+.destacados {
   grid-area: destacado;
-  background-color: chartreuse;
+  background-color: darkkhaki;
+}
+
+.destacados h3 {
+  text-decoration: underline;
+  margin-block: 10px;
+  margin-left: 15px;
+}
+
+.cont-destacados{
+  display: flex;
+  justify-content: space-around;
+}
+
+.destacado h4{
+  text-align: center;
+}
+
+.destacado img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
 }
 
