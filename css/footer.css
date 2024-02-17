@@ -1,0 +1,30 @@
+.pie-pagina {
+    color: bisque;
+    background-color: #424242;
+    margin: 0;
+}
+
+.linea {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+    padding-top: 10px;
+}
+
+.info {
+    width: 400px;
+}
+
+.redes a {
+    display: block;
+    color: darkgoldenrod;
+    padding-inline: 5px;
+    background-color: #a8bfd3;
+    border-radius: 9px;
+    margin-block: 5px;
+    font-size: 20px;
+}
+
+.copy {
+    text-align: center;
+}
