@@ -2,13 +2,13 @@
     color: bisque;
     background-color: #424242;
     margin: 0;
-}
+}   
 
 .linea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-inline: 20px;
+    margin-inline: 40px;
     padding-top: 10px;
 }
 
@@ -24,8 +24,11 @@
     border-radius: 9px;
     margin-block: 5px;
     font-size: 20px;
+    text-align: center;
 }
 
 .copy {
     text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
 }
