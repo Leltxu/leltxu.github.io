@@ -1,0 +1,78 @@
+@import 'main.css';
+
+h2 {
+    text-align: center;
+    margin-block: 30px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+.contenido{
+    width: 80%;
+    margin: auto;
+}
+
+.noticia {
+    padding-block: 50px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.noticia:last-of-type {
+    border: none;
+}
+
+.noticia a {
+    display: flex;
+    color: black;
+
+}
+
+.noticia a img {
+    object-fit: cover;
+    width: 300px;
+    height: 175px;
+
+}
+
+.informacion {
+    width: calc(100% - 350px);
+    margin-left: 18px;
+}
+
+.informacion h4 {
+    font-size: 25px;
+}
+
+.informacion .fecha {
+    font-size: 13px;
+    margin-left: 10px;
+    color: #686868;
+    text-transform: capitalize;
+}
+
+.informacion .texto-noticia {
+    margin-top: 8px;
+    color: #424242;
+}
+
+.paginas {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.paginas a{
+    padding: 3px;
+    color: white;
+    background-color: olivedrab;
+    width: 26px;
+    height: 20px;
+    display: block;
+    margin-inline: 2px;
+    text-align: center;
+}
+
+.paginas .selected {
+    background-color: #304110;
+}
