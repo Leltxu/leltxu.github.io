@@ -8,24 +8,50 @@
 .contenido h2 {
     font-size: 50px;
     margin-block: 50px;
-    text-align: center;
 }
 
 .contenido .fecha {
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #797979;
+    text-align: right;
 }
 
 .contenido img {
-    width: 100%;
+    width: 50%;
     height: 400px;
     object-fit: cover;
-   
+    float: right;
+    margin-left: 10px;
 }
 
 .contenido p {
-    margin-inline: 40px;
     margin-block: 40px;
     color: #3d3d3d;
+    font-size: 17px;
+}
+
+.contenido p:first-of-type {
+    margin-top: 5px;
+}
+
+.contenido .grande {
+    font-size: 30px;
+}
+
+.atras {
+    margin-bottom: 50px;
+}
+
+.atras a{
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+    background-color: darkslategrey;
+    font-size: 20px;
+    text-align: center;
+}
+
+.atras a i{
+    transform: rotateZ(270deg);
 }

@@ -3,7 +3,7 @@ header {
 }
 
 .cavecera {
-    background-color: darkslategray;
+    background-color: #c8d7d2;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,14 +20,14 @@ header {
 }
 
 .cavecera a {
-    color: wheat;
+    color: #373234;
     padding: 5px;
     text-decoration: none;
     margin-inline: 5px;
 }
 
 .cavecera i {
-    transition: transform .5s;
+    transition: transform .1s;
 }
 
 .cavecera a:hover i {
@@ -41,7 +41,7 @@ header {
 .despegable {
     display: none;
     position: absolute;
-    background-color: #192b2b;
+    background-color: #8c9793;
     margin-top: 6px;
     margin-left: 20px;
     padding-block: 5px;
@@ -55,8 +55,6 @@ header {
     display: block;
 }
 
-
-
 .flecha {
     color: #192b2b;
     position: absolute;
@@ -65,10 +63,10 @@ header {
 }
 
 .cavecera a:hover {
-    color: #918266;
+    color: #000000;
 }
 
 .despegable a:hover {
-    background-color: darkslategray;
-    color: wheat;
+    background-color: #c8d7d2;
+    color: #000000;
 }

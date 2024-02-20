@@ -1,6 +1,5 @@
 .pie-pagina {
-    color: bisque;
-    background-color: #424242;
+    background-color: #373234;
     margin: 0;
 }   
 
@@ -14,6 +13,10 @@
 
 .info {
     width: 400px;
+}
+
+.info p {
+    color: #f4f2f0;
 }
 
 .redes a {
@@ -31,4 +34,5 @@
     text-align: center;
     margin: 0;
     padding-bottom: 5px;
+    color: #f4f2f0;
 }

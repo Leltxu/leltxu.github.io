@@ -34,13 +34,23 @@
   top: 10px;
 }
 
+.carousel-caption h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.carousel-caption a {
+  padding: 10px;
+  background-color: #d84339;
+  font-size: 20px;
+}
 
 /***********
 AGENDA 
 ***********/
 
 .agenda {
-  background-color: rgb(180, 141, 68);
+  background-color: #b48d44;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -49,14 +59,15 @@ AGENDA
 }
 
 .agenda a {
-  color: firebrick;
+  color: #f4f2f0;
   padding: 10px;
-  background-color: #2be27d;
+  background-color: #d84339;
   border-radius: 7px;
 }
 
 .agenda p {
   margin: 0;
+  color: #f4f2f0;
 }
 
 
@@ -124,8 +135,8 @@ NOTICIAS
 .fecha {
   position: absolute;
   z-index: 2;
-  color: midnightblue;
-  background-color: mediumspringgreen;
+  background-color: #b48d44;
+  color: #f4f2f0;
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
@@ -154,7 +165,7 @@ NOTICIAS
 
 .not-hov i {
   font-size: 40px;
-  color: orange ;
+  color: #d84339 ;
 }
 
 .hov-flcha:hover .not-hov {
@@ -169,9 +180,13 @@ NOTICIAS
 
 .ver-mas a {
   padding: 10px;
-  background-color: #2be27d;
-  color: white;
+  background-color: #d84339;
+  color: #f4f2f0;
   border-radius: 7px;
+}
+
+.ver-mas a i {
+  color: #f4f2f0;
 }
 
 /**********
@@ -180,6 +195,9 @@ NOVEDADES
 
 .novedades {
   grid-area: novedades;
+}
+
+.cont-novedades {
   border: 1px solid gray ;
 }
 
@@ -223,13 +241,15 @@ DESTACADO
 
 .destacados {
   grid-area: destacado;
-  background-color: darkkhaki;
+  background-color: #b48d44;
 }
 
 .destacados h3 {
   text-decoration: underline;
-  margin-block: 10px;
-  margin-left: 15px;
+  margin-block: 20px;
+  text-align: center;
+  color: #f4f2f0;
+  font-size: 35px;
 }
 
 .cont-destacados{
@@ -244,6 +264,7 @@ DESTACADO
 
 .destacado h4{
   text-align: center;
+  color: #f4f2f0;
 }
 
 .destacado img {

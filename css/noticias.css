@@ -64,8 +64,8 @@ h2 {
 
 .paginas a{
     padding: 3px;
-    color: white;
-    background-color: olivedrab;
+    color: #f4f2f0;
+    background-color: #d84339;
     width: 26px;
     height: 20px;
     display: block;
@@ -73,6 +73,11 @@ h2 {
     text-align: center;
 }
 
+.paginas a i {
+    color: #f4f2f0;
+}
+
+
 .paginas .selected {
-    background-color: #304110;
+    background-color: #752f2a;
 }

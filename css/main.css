@@ -7,8 +7,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Quicksand';
+    color: #373234;
 }
 
 a {
     text-decoration: none;
+    color: #373234;;
 }
