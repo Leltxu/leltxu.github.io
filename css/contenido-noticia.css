@@ -39,6 +39,14 @@
     font-size: 30px;
 }
 
+.contenido p a {
+    color: #d84339;
+}
+
+.contenido p a:hover {
+    color: #773b36;
+}
+
 .atras {
     margin-bottom: 50px;
 }
@@ -55,4 +63,10 @@
 .atras a i{
     transform: rotateZ(270deg);
     color: #f4f2f0;
+}
+
+.contenido .static {
+    float: none;
+    display: block;
+    width: 100%;
 }
