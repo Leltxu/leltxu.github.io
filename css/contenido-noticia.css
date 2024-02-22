@@ -46,12 +46,13 @@
 .atras a{
     padding: 5px;
     border-radius: 6px;
-    color: white;
-    background-color: darkslategrey;
+    color: #f4f2f0;
+    background-color: #d84339;
     font-size: 20px;
     text-align: center;
 }
 
 .atras a i{
     transform: rotateZ(270deg);
+    color: #f4f2f0;
 }

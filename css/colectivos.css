@@ -1,0 +1,65 @@
+@import 'main.css';
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-block: 35px;
+}
+
+.colectivos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.targeta {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-block: 10px;
+    margin-inline: 5px;
+}
+
+.targeta img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    backface-visibility: hidden;
+}
+
+.hov-tarjeta {
+    display: flex;
+    position: absolute;
+    background-color: #b48d44;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.posicion {
+    display: block;
+    text-align: center;
+}
+
+.hov-tarjeta h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.targeta:hover img {
+    transform: rotateY(180deg);
+}
+
+.targeta:hover .hov-tarjeta {
+    transform: rotateY(0deg);
+}
+

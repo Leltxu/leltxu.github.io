@@ -4,10 +4,6 @@
   height: calc(100vh - 60px);
 }
 
-.carrusel-img {
-  object-fit: cover;
-}
-
 .carousel-item {
   height: calc(100vh - 60px);
   position: relative;
@@ -43,6 +39,7 @@
   padding: 10px;
   background-color: #d84339;
   font-size: 20px;
+  color: #f4f2f0;
 }
 
 /***********
@@ -63,6 +60,10 @@ AGENDA
   padding: 10px;
   background-color: #d84339;
   border-radius: 7px;
+}
+
+.agenda a i {
+  color: #f4f2f0;
 }
 
 .agenda p {
@@ -103,13 +104,13 @@ NOTICIAS
 .cont-noticias {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .noticia {
   width: 250px;
   border: 1px solid #a3a3a3;
   margin-block: 10px;
+  margin-inline: 5px;
   border-radius: 4px;
 }
 
@@ -199,6 +200,7 @@ NOVEDADES
 
 .cont-novedades {
   border: 1px solid gray ;
+  margin-bottom: 20px;
 }
 
 .novedades h3 {
