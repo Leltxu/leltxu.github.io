@@ -8,12 +8,16 @@ h2 {
     margin-block: 35px;
 }
 
-.colectivos {
+.contenido {
+    display: block;
     width: 80%;
     margin: auto;
+}
+
+.colectivos {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .targeta {
@@ -24,10 +28,45 @@ h2 {
     margin-inline: 5px;
 }
 
+.imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+.imagenes .logo {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: #f4f2f0;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: transform 1s;
+}
+
+.imagenes .logo .contain {
+    object-fit: contain;
+}
+
+.background {
+    background-color: #373234;
+    border-radius: 50px;
+}
+
+.imagenes .logo img {
+    width: 150px;
+    height: 150px;
+    transition: transform 1s;
+}
+
 .targeta img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     transition: transform 1s;
     backface-visibility: hidden;
 }
@@ -59,7 +98,10 @@ h2 {
     transform: rotateY(180deg);
 }
 
+.targeta:hover .imagenes .logo {
+    transform: rotateY(180deg);
+}
+
 .targeta:hover .hov-tarjeta {
     transform: rotateY(0deg);
 }
-
