@@ -35,6 +35,10 @@ h2 {
     transition: transform 1s;
 }
 
+.imagenes h4 {
+    font-size: 30px;
+}
+
 .imagenes .logo {
     position: absolute;
     width: 210px;
