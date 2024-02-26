@@ -70,3 +70,29 @@ header {
     background-color: #c8d7d2;
     color: #000000;
 }
+
+.responsive {
+    display: none;
+    margin-right: 15px;
+    font-size: 22px;
+    padding: 4px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    .cavecera {
+        justify-content: space-between;
+    }
+    .cavecera a {
+        display: none;
+        position: absolute;
+    }
+    .dropdawn {
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+    
+
+}

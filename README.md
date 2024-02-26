@@ -7,7 +7,8 @@ Este proyecto trata de hacer una pagina de un barrio, lo que trata es de mostrar
 ## Anotaciones
 
 Responsive: Móvil desde 360px hasta 400px, tablet desde 768px hasta 1024px y pantallas a partir de 1024px
-
+@media screen and (min-width: 768px) and (max-width: 1024px)
+@media screen and (min-width: 360px) and (max-width: 400px)
 ### Colores
 Azul claro: #c8d7d2
 Oscuro: #373234

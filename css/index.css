@@ -275,3 +275,40 @@ DESTACADO
   object-fit: cover;
 }
 
+/******
+RESPONSIVE
+******/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenido {
+    grid-template-columns: 10px auto 225px 10px;
+  }
+
+  .cont-noticias {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  .contenido {
+    display: block;
+  }
+
+  .agenda {
+    display: block;
+    text-align: center;
+  }
+
+  .agenda p {
+    margin-bottom: 20px;
+  }
+
+  .cont-noticias {
+    justify-content: center;
+  }
+
+  .cont-novedades {
+    margin: auto;
+    max-width: 340px;
+  }
+}
