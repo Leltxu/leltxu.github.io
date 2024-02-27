@@ -1,3 +1,5 @@
+@import 'main.css';
+
 header {
     height: 60px;
 }
@@ -78,21 +80,81 @@ header {
     padding: 4px;
 }
 
+.cavecera-normal {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: 10px;
+}
+
+.hov-cavecera {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: 10px;
+}
+
+.cavecera-hov {
+    display: none;
+    position: absolute;
+    background-color: #a2b1ac;
+    left: 0px;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.cavecera-hov a, .cavecera-hov .dropdawn {
+    display: block;
+}
+
+.arriva {
+    z-index: 20;
+    position: relative;
+}
+
+.colectivo {
+    top: 125px;
+}
+
+.proyecto {
+    top: 170px;
+}
+
 
 @media screen and (min-width: 360px) and (max-width: 400px) {
-    .cavecera {
-        justify-content: space-between;
-    }
-    .cavecera a {
-        display: none;
-        position: absolute;
-    }
-    .dropdawn {
+
+    .cavecera-normal {
         display: none;
     }
     .responsive {
         display: block;
     }
+
+    .hov-cavecera {
+        display: flex;
+    }
     
+    .responsive:hover .cavecera-hov {
+        display: block;
+    }
+
+    .hov-cavecera i:hover .cavecera-hov {
+        display: block;
+        
+    }
+
+    .hov-respons {
+        display: flex;
+    }
+
+    .despegable {
+        position: absolute;
+        left: 125px;
+        padding-block: 5px;
+        width: 165px;
+    }
 
 }
