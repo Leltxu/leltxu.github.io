@@ -108,7 +108,7 @@ header {
 }
 
 .cavecera-hov a {
-    width: 130px;
+    width: 140px;
 }
 
 .cavecera-hov a, .cavecera-hov .dropdawn {
@@ -154,7 +154,7 @@ header {
     }
 
     .dropdawn:hover .despegable a {
-        width: 185px;
+        width: 195px;
     }
 
     .flecha {
