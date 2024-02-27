@@ -96,14 +96,19 @@ header {
 }
 
 .cavecera-hov {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #a2b1ac;
-    left: 0px;
+    left: -300px;
     top: 0;
     width: 300px;
     height: 100vh;
     padding-top: 50px;
+    transition: transform .1s;
+}
+
+.cavecera-hov a {
+    width: 130px;
 }
 
 .cavecera-hov a, .cavecera-hov .dropdawn {
@@ -115,13 +120,6 @@ header {
     position: relative;
 }
 
-.colectivo {
-    top: 125px;
-}
-
-.proyecto {
-    top: 170px;
-}
 
 
 @media screen and (min-width: 360px) and (max-width: 400px) {
@@ -138,7 +136,7 @@ header {
     }
     
     .responsive:hover .cavecera-hov {
-        display: block;
+        transform: translate(300px);
     }
 
     .hov-cavecera i:hover .cavecera-hov {
@@ -151,10 +149,20 @@ header {
     }
 
     .despegable {
-        position: absolute;
-        left: 125px;
-        padding-block: 5px;
-        width: 165px;
+        position: relative;
+        background-color: #a2b1ac;
+    }
+
+    .dropdawn:hover .despegable a {
+        width: 185px;
+    }
+
+    .flecha {
+        display: none;
+    }
+
+    .cavecera a:hover {
+        background-color: #c8d7d2;
     }
 
 }
