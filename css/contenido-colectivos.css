@@ -1,0 +1,49 @@
+@import 'main.css';
+
+.contenido {
+    width: 80%;
+    margin: auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.titulo h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.titulo img {
+    width: 100px;
+}
+
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.informacion img, .que-es, .contacto, .descrip {
+    width: 49%;
+}
+
+.que-es h3,  .descripcion h3{
+    font-size: 24px;
+    margin-block: 5px;
+}
+
+.que-es p, .descrip p {
+    margin-inline: 7px;
+}
+
+.descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
