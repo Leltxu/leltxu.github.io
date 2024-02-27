@@ -28,7 +28,7 @@
     margin-top: 40px;
 }
 
-.informacion img, .que-es, .contacto, .descrip {
+.informacion img, .que-es {
     width: 49%;
 }
 
@@ -45,5 +45,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-block: 50px;
+}
+
+.contacto {
+    width: 34%
+}
+
+.descrip {
+    width: 64%;
+}
+
+.contacto ul {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.decorada {
+    color: #b48d44;
+    font-weight: bold;
+}
+
+.contacto ul li a {
+    color: #d84339;
 }
