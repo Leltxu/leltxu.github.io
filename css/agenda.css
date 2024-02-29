@@ -47,6 +47,10 @@
     background-color: #ebe9e8;
 }
 
+.dias .dia:hover h4{
+    font-weight: bold;
+}
+
 .dia .num-dia {
     padding: 5px;
     margin-left: 5px;
