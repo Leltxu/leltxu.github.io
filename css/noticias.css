@@ -81,3 +81,42 @@ h2 {
 .paginas .selected {
     background-color: #752f2a;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .noticia a {
+        display: block;
+    } 
+    .informacion {
+        width: 100%;
+    }
+    .noticia a img {
+        width: 100%;
+    } 
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    .contenido {
+        margin-inline: 5px;
+        width: 100%;
+    }
+
+    .noticia a {
+        display: block;
+    }
+
+    .noticia a img {
+        display: block;
+        margin: auto;
+    } 
+
+    .informacion {
+        width: 90%;
+    }
+
+    .paginas {
+        display: flex;
+        justify-content: center;
+        margin-inline: 0;
+    }
+}
