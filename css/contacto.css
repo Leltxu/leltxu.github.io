@@ -1,0 +1,97 @@
+@import 'main.css';
+
+.contenido  {
+    width: 80%;
+    margin: auto;
+    background-color: #f4f2f0;
+    border-radius: 30px;
+    padding: 15px;
+    margin-block: 30px;
+}
+
+.contenido h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex h3 {
+    font-size: 25px;
+    margin-inline: 5px;
+}
+
+.informacion {
+    width: 49%;
+}
+
+.informacion ul {
+    list-style: none;
+    margin-left: 20px;
+    margin-block: 10px
+}
+
+.informacion a {
+    color: #d84339;
+}
+
+
+.informacion iframe {
+    width: 90%;
+    height: 300px;
+    display: block;
+}
+
+form {
+    width: 49%;
+}
+
+
+form input, form textarea{
+    display: block;
+    width: 90%;
+    margin-block: 7px;
+    padding: 5px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+}
+
+form label:first-of-type {
+    margin-top: 20px;
+    display: block;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    .contenido  {
+        width: 96%;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+
+    .informacion, form {
+        width: 90%;
+    }
+
+    .informacion iframe {
+        width: 97%;
+        margin: auto;
+    }
+
+    form {
+        margin-top: 30px;
+        padding-top: 5px;
+        border-top: 1px solid rgb(117, 117, 117);
+    }
+}
