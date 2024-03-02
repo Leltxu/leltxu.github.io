@@ -1,0 +1,37 @@
+.contenido {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.contenido h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-block: 20px;
+}
+
+.contenido  a {
+    color: blue;
+}
+
+.contenido  a:hover {
+    color: rgb(0, 0, 99);
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+li > ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li > ul > li {
+    margin-bottom: 5px;
+}
+
+li > ul > li > ul {
+    list-style-type: square;
+}
