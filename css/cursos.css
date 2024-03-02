@@ -103,3 +103,22 @@ form input[type="submit"]:hover {
         margin-block: 10px;
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    .contenido {
+        width: 96%;
+    }
+
+    .informacion {
+        margin-block: 10px;
+        width: 95%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .input {
+        width: 90%;
+    }
+}

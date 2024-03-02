@@ -69,3 +69,19 @@
 .contacto ul li a {
     color: #d84339;
 }
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    .contenido {
+        width: 94%;
+        margin: auto;
+    }
+
+    .informacion img, .que-es, .contacto, .descrip {
+        width: 95%;
+    }
+
+    .descrip ul {
+        margin-left: 25px;
+        margin-block: 5px;
+    }
+}

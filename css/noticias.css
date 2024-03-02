@@ -28,6 +28,10 @@ h2 {
 
 }
 
+.noticia a:hover {
+    transform: scale(1.05);
+}
+
 .noticia a img {
     object-fit: cover;
     width: 300px;
@@ -75,6 +79,10 @@ h2 {
 
 .paginas a i {
     color: #f4f2f0;
+}
+
+.paginas a:hover {
+    background-color: #aa352d ;
 }
 
 
