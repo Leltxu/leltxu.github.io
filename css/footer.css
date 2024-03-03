@@ -5,13 +5,13 @@
     padding-inline: 10px;
 }  
 
-.flex {
+.flex-f {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.flex p {
+.flex-f p {
     color: #f4f2f0;
     width: 400px;
     margin-right: 30px;

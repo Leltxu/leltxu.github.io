@@ -65,12 +65,14 @@ header {
 }
 
 .cavecera a:hover {
-    color: #000000;
+    color: #b48d44;
+    font-weight: bolder;
 }
 
 .despegable a:hover {
     background-color: #c8d7d2;
-    color: #000000;
+    color: #b48d44;
+    font-weight: bolder;
 }
 
 .responsive {

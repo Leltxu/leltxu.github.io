@@ -65,6 +65,10 @@
     color: #f4f2f0;
 }
 
+.atras a:hover {
+    background-color: #8b312b;
+}
+
 .contenido .static {
     float: none;
     display: block;
