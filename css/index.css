@@ -71,6 +71,10 @@ AGENDA
   color: #f4f2f0;
 }
 
+.agenda a:hover {
+  background-color: #a0372f;
+}
+
 .agenda p {
   margin: 0;
   color: #f4f2f0;
@@ -243,6 +247,10 @@ NOVEDADES
 
 .novedad img {
   width: 200px;
+}
+
+.novedad a {
+  color: #d84339;
 }
 
 /**********
